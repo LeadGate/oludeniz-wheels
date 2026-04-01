@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://oludeniz-rent-a-car.com/sitemap.xml
