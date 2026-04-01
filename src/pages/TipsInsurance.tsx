@@ -83,8 +83,8 @@ const TipsInsurance = () => {
   return (
     <Layout>
       <SEOHead
-        title="Ölüdeniz Car Rental Tips — Insurance, Scams & Traffic Rules Guide (2026)"
-        description="Car rental tips for Ölüdeniz and Fethiye. Turkish insurance explained (CDW, SCDW, Kasko), common scams, traffic fines table, verification checklist, and best car picks by route."
+        title="Car Rental Tips — Insurance & Traffic Rules (2026)"
+        description="Turkey car rental insurance decoded: Kasko vs CDW vs SCDW. Common scams, company verification, traffic fines, and practical tips."
         canonical="https://oludeniz-rent-a-car.com/rental-tips-insurance"
       />
       <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
@@ -92,7 +92,7 @@ const TipsInsurance = () => {
 
       {/* Hero Section */}
       <section className="relative min-h-[480px] flex items-center justify-center overflow-hidden">
-        <img src={heroInsuranceTips} alt="Rental car keys and insurance documents on a desk at Dalaman Airport" className="absolute inset-0 w-full h-full object-cover" loading="eager" />
+        <img src={heroInsuranceTips} alt="Rental car keys and insurance documents on a desk at Dalaman Airport" className="absolute inset-0 w-full h-full object-cover" loading="eager" fetchpriority="high" />
         <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/75 to-primary/50" />
         <div className="relative z-10 max-w-4xl mx-auto px-4 py-16 text-center text-white">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">&Ouml;l&uuml;deniz Car Rental Tips &mdash; Insurance, Rules &amp; Scam Protection</h1>

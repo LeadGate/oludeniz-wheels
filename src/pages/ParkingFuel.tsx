@@ -73,8 +73,8 @@ const ParkingFuel = () => {
   return (
     <Layout>
       <SEOHead
-        title="Parking & Fuel Guide for Ölüdeniz and Fethiye — Costs, Locations & Tips (2026)"
-        description="Parking costs and fuel stations for Ölüdeniz, Fethiye, and Blue Lagoon. Attraction parking table, fuel prices, Fethiye market day tips, and practical advice for rental car drivers."
+        title="Parking & Fuel Guide — Ölüdeniz and Fethiye (2026)"
+        description="Parking and fuel guide for Ölüdeniz. Blue Lagoon costs, attraction parking, Fethiye market day tips, and fuel station locations."
         canonical="https://oludeniz-rent-a-car.com/parking-fuel-guide"
       />
       <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
@@ -82,7 +82,7 @@ const ParkingFuel = () => {
 
       {/* Hero Section */}
       <section className="relative min-h-[480px] flex items-center justify-center overflow-hidden">
-        <img src={heroParkingGuide} alt="Ölüdeniz Blue Lagoon aerial view with parked cars along the coast road" className="absolute inset-0 w-full h-full object-cover" loading="eager" />
+        <img src={heroParkingGuide} alt="Ölüdeniz Blue Lagoon aerial view with parked cars along the coast road" className="absolute inset-0 w-full h-full object-cover" loading="eager" fetchpriority="high" />
         <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/75 to-primary/50" />
         <div className="relative z-10 max-w-4xl mx-auto px-4 py-16 text-center text-white">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Parking &amp; Fuel Guide for &Ouml;l&uuml;deniz and Fethiye</h1>

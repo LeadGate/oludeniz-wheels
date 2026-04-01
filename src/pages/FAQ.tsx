@@ -95,7 +95,7 @@ const FAQ = () => {
   return (
     <Layout>
       <SEOHead
-        title="\u00d6l\u00fcdeniz Car Rental FAQ \u2014 11 Common Questions Answered (2026)"
+        title="Car Rental FAQ \u2014 11 Questions Answered (2026)"
         description="Answers to the most common questions about renting a car in \u00d6l\u00fcdeniz. Airport transfers, insurance, fuel, parking, tolls, speed limits, and seasonal tips."
         canonical="https://oludeniz-rent-a-car.com/faq"
         jsonLd={[breadcrumbSchema, faqSchema]}
@@ -103,7 +103,7 @@ const FAQ = () => {
 
       {/* Hero */}
       <section className="relative min-h-[480px] flex items-center justify-center overflow-hidden">
-        <img src={heroBlueLagoon} alt="Aerial view of the Blue Lagoon turquoise water in \u00d6l\u00fcdeniz" className="absolute inset-0 w-full h-full object-cover" loading="eager" />
+        <img src={heroBlueLagoon} alt="Aerial view of the Blue Lagoon turquoise water in \u00d6l\u00fcdeniz" className="absolute inset-0 w-full h-full object-cover" loading="eager" fetchpriority="high" />
         <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/75 to-primary/50" />
         <div className="relative z-10 max-w-4xl mx-auto px-4 py-16 text-center text-white">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">

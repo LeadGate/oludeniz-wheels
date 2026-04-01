@@ -30,10 +30,6 @@ const PrivacyPolicy = () => {
             Privacy Policy
           </h1>
 
-          <p className="text-sm text-muted-foreground mb-8">
-            Last updated: April 2026
-          </p>
-
           <p className="text-muted-foreground">
             This privacy policy explains how oludeniz-rent-a-car.com collects,
             uses, and protects your information when you visit our website.

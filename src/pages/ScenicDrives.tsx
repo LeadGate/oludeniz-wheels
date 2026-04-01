@@ -79,8 +79,8 @@ const ScenicDrives = () => {
   return (
     <Layout>
       <SEOHead
-        title="Best Scenic Drives & Day Trips from Ölüdeniz by Car — Route Guide 2026"
-        description="Scenic drives and day trips from Ölüdeniz by car. Kabak Coast Road, Tlos–Saklıkent–Pinara loop, D400 to Kaş, Kayaköy, mountain villages. Route distances, vehicle advice, and insurance notes."
+        title="Scenic Drives & Day Trips from Ölüdeniz by Car (2026)"
+        description="Scenic drives from Ölüdeniz: Kabak Coast Road, Tlos–Saklıkent loop, D400 to Kaş. 4WD vs standard car advice with distances and conditions."
         canonical="https://oludeniz-rent-a-car.com/scenic-drives-from-oludeniz"
       />
       <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
@@ -88,7 +88,7 @@ const ScenicDrives = () => {
 
       {/* Hero Section */}
       <section className="relative min-h-[480px] flex items-center justify-center overflow-hidden">
-        <img src={heroScenicDrive} alt="Scenic coastal road along the Lycian Coast near Ölüdeniz with turquoise sea views" className="absolute inset-0 w-full h-full object-cover" loading="eager" />
+        <img src={heroScenicDrive} alt="Scenic coastal road along the Lycian Coast near Ölüdeniz with turquoise sea views" className="absolute inset-0 w-full h-full object-cover" loading="eager" fetchpriority="high" />
         <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/75 to-primary/50" />
         <div className="relative z-10 max-w-4xl mx-auto px-4 py-16 text-center text-white">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Best Scenic Drives &amp; Day Trips from &Ouml;l&uuml;deniz by Car</h1>

@@ -58,7 +58,7 @@ const Index = () => {
 
   const localBusinessSchema = {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@type": "Organization",
     name: "Ölüdeniz Car Rental",
     url: "https://oludeniz-rent-a-car.com/",
     description: "Car rental comparison guide for Ölüdeniz, Fethiye, and the Lycian Coast, Turkey",
@@ -84,8 +84,8 @@ const Index = () => {
   return (
     <Layout>
       <SEOHead
-        title="Rent a Car in Ölüdeniz, Turkey — Compare Local Deals from €12/Day | 2026 Guide"
-        description="Compare car rental in Ölüdeniz, Turkey. Economy from €12/day. Local agencies, Dalaman Airport pickup, insurance tips, and day trip distances for the Lycian Coast."
+        title="Rent a Car in Ölüdeniz — Compare Deals from €12/Day"
+        description="Compare car rental in Ölüdeniz, Turkey. Economy from €12/day. Local agencies, Dalaman Airport pickup, insurance tips, and day trip routes."
         canonical="https://oludeniz-rent-a-car.com/"
       />
       <script type="application/ld+json">{JSON.stringify(websiteSchema)}</script>
@@ -95,7 +95,7 @@ const Index = () => {
 
       {/* Hero Section */}
       <section className="relative min-h-[480px] flex items-center justify-center overflow-hidden">
-        <img src={heroOludenizLagoon} alt="Aerial view of Ölüdeniz Blue Lagoon and turquoise coastline" className="absolute inset-0 w-full h-full object-cover" loading="eager" />
+        <img src={heroOludenizLagoon} alt="Aerial view of Ölüdeniz Blue Lagoon and turquoise coastline" className="absolute inset-0 w-full h-full object-cover" loading="eager" fetchpriority="high" />
         <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/75 to-primary/50" />
         <div className="relative z-10 max-w-4xl mx-auto px-4 py-16 text-center text-white">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Rent a Car in &Ouml;l&uuml;deniz &mdash; Compare Local Deals from &euro;12/Day</h1>

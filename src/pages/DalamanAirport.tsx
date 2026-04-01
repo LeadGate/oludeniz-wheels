@@ -68,7 +68,7 @@ const DalamanAirport = () => {
   return (
     <Layout>
       <SEOHead
-        title="Dalaman Airport Car Rental — Pickup Guide, Deposits & Route to Ölüdeniz (2026)"
+        title="Dalaman Airport Car Rental — Pickup Guide & Route (2026)"
         description="Complete Dalaman Airport car rental pickup guide. Insurance, deposits, HGS tolls, Göcek Tunnel, night driving tips, and the 60 km route to Ölüdeniz."
         canonical="https://oludeniz-rent-a-car.com/dalaman-airport-car-rental"
       />
@@ -77,7 +77,7 @@ const DalamanAirport = () => {
 
       {/* Hero Section */}
       <section className="relative min-h-[480px] flex items-center justify-center overflow-hidden">
-        <img src={heroDalamanAirport} alt="Dalaman Airport terminal exterior with rental car parking area" className="absolute inset-0 w-full h-full object-cover" loading="eager" />
+        <img src={heroDalamanAirport} alt="Dalaman Airport terminal exterior with rental car parking area" className="absolute inset-0 w-full h-full object-cover" loading="eager" fetchpriority="high" />
         <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/75 to-primary/50" />
         <div className="relative z-10 max-w-4xl mx-auto px-4 py-16 text-center text-white">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Dalaman Airport Car Rental &mdash; Your Complete Pickup Guide</h1>

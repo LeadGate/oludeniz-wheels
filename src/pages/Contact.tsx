@@ -37,7 +37,7 @@ const Contact = () => {
 
       {/* Hero */}
       <section className="relative min-h-[480px] flex items-center justify-center overflow-hidden">
-        <img src={heroContact} alt="Turkish coastal village with boats in harbor" className="absolute inset-0 w-full h-full object-cover" loading="eager" />
+        <img src={heroContact} alt="Turkish coastal village with boats in harbor" className="absolute inset-0 w-full h-full object-cover" loading="eager" fetchpriority="high" />
         <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/75 to-primary/50" />
         <div className="relative z-10 max-w-4xl mx-auto px-4 py-16 text-center text-white">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Contact Us</h1>

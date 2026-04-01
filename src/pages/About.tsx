@@ -17,7 +17,7 @@ const About = () => {
   return (
     <Layout>
       <SEOHead
-        title="About \u00d6l\u00fcdeniz Car Rental \u2014 Independent Comparison Guide"
+        title="About Us \u2014 Independent Car Rental Comparison Guide"
         description="About oludeniz-rent-a-car.com \u2014 an independent comparison guide for car rental in \u00d6l\u00fcdeniz, Turkey. Not a rental agency."
         canonical="https://oludeniz-rent-a-car.com/about"
         jsonLd={[breadcrumbSchema]}
@@ -25,7 +25,7 @@ const About = () => {
 
       {/* Hero */}
       <section className="relative min-h-[480px] flex items-center justify-center overflow-hidden">
-        <img src={heroAbout} alt="Sunset over \u00d6l\u00fcdeniz from Babada\u011f Mountain" className="absolute inset-0 w-full h-full object-cover" loading="eager" />
+        <img src={heroAbout} alt="Sunset over \u00d6l\u00fcdeniz from Babada\u011f Mountain" className="absolute inset-0 w-full h-full object-cover" loading="eager" fetchpriority="high" />
         <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/75 to-primary/50" />
         <div className="relative z-10 max-w-4xl mx-auto px-4 py-16 text-center text-white">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
@@ -59,13 +59,10 @@ const About = () => {
           <h2 className="text-2xl font-semibold mb-4">What We Do</h2>
 
           <p className="text-muted-foreground mb-4">
-            We research and compare car rental options in the {"\u00d6"}l{"\u00fc"}deniz area,
-            including pricing, insurance terms (Kasko, CDW, SCDW), airport pickup
-            logistics at Dalaman Airport (DLM), and driving routes along the D400
-            highway. Our content covers local agencies such as Cizgi Rent a Car,
-            Babadan Rent a Car, Oscar Rent a Car, Yelken Rent a Car, and Marin
-            Rent a Car, along with international brands like Avis, Europcar, Sixt,
-            Budget, and Garenta.
+            We research and compare rental options in the area, including pricing,
+            insurance terms (Kasko, CDW, SCDW), airport pickup logistics at Dalaman
+            Airport (DLM), and driving routes along the D400 highway. Our content
+            covers local agencies and international brands operating in the region.
           </p>
 
           <p className="text-muted-foreground">
