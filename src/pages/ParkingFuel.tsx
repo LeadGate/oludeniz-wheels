@@ -144,7 +144,7 @@ const ParkingFuel = () => {
             <h2 className="text-3xl font-bold">Parking at Key Attractions around Fethiye</h2>
           </div>
           <p className="text-gray-700 mb-6 leading-relaxed">
-            Day trips from Fethiye are easiest when you treat parking as part of the itinerary, because several attractions in the &Ouml;l&uuml;deniz area have fixed lots, attendants, or seasonal rules. The best pattern is to arrive early, keep small cash ready, and check whether the site charges per person, per vehicle, or as a combined ticket.
+            Day trips from Fethiye are easiest when you treat parking as part of the itinerary, because several attractions in the &Ouml;l&uuml;deniz area have fixed lots, attendants, or seasonal rules. Our <Link to="/scenic-drives-from-oludeniz" className="text-primary underline hover:text-accent">scenic drives and day trip routes</Link> cover each destination in detail. The best pattern is to arrive early, keep small cash ready, and check whether the site charges per person, per vehicle, or as a combined ticket.
           </p>
           <div className="overflow-x-auto">
             <table className="w-full border-collapse text-sm">
@@ -255,7 +255,7 @@ const ParkingFuel = () => {
             </table>
           </div>
           <p className="text-gray-700 mt-4 leading-relaxed">
-            The safest routine is to fill up in Fethiye or Ovac&#x131;k before descending to &Ouml;l&uuml;deniz, then avoid waiting until Friday evening or Sunday afternoon, when holiday traffic often creates queues at the pumps. If you are driving toward the Lycian Coast, Ka&#x15F;, Kalkan, G&ouml;cek, Dalyan, K&ouml;yce&#x11F;iz, or Pamukkale, a full tank can save time on the D400 highway and reduce the risk of paying airport or resort premiums later.
+            The safest routine is to fill up in Fethiye or Ovac&#x131;k before descending to &Ouml;l&uuml;deniz, then avoid waiting until Friday evening or Sunday afternoon, when holiday traffic often creates queues at the pumps. If you are driving toward the Lycian Coast, Ka&#x15F;, Kalkan, G&ouml;cek, Dalyan, K&ouml;yce&#x11F;iz, or Pamukkale, a full tank can save time on the D400 highway and reduce the risk of paying airport or resort premiums later. For the airport route and G&ouml;cek Tunnel options, see our <Link to="/dalaman-airport-car-rental" className="text-primary underline hover:text-accent">Dalaman Airport route guide</Link>.
           </p>
         </div>
       </Section>

@@ -165,7 +165,7 @@ const FAQ = () => {
                   <strong>Kabak Beach</strong>,{" "}
                   <strong>Butterfly Valley (Kelebekler Vadisi)</strong>, and{" "}
                   <strong>Gemiler Island</strong>, a rental car saves time on the Lycian Coast
-                  and the Turquoise Coast.
+                  and the Turquoise Coast. See our <Link to="/scenic-drives-from-oludeniz" className="text-primary underline hover:text-accent">scenic drives and day trips guide</Link> for detailed routes.
                 </p>
               </AccordionContent>
             </AccordionItem>
@@ -182,7 +182,7 @@ const FAQ = () => {
                   typically in the airport terminal, and many providers use a meet-and-greet
                   service in the arrivals hall with a name sign for handover. The G{"\u00f6"}cek
                   Tunnel toll is <strong>75 TL</strong> per vehicle in 2026, while the older
-                  mountain road is free but usually adds 15{"\u2013"}20 minutes.
+                  mountain road is free but usually adds 15{"\u2013"}20 minutes. For the full pickup process, see our <Link to="/dalaman-airport-car-rental" className="text-primary underline hover:text-accent">Dalaman Airport car rental guide</Link>.
                 </p>
               </AccordionContent>
             </AccordionItem>
@@ -389,7 +389,7 @@ const FAQ = () => {
                   walk, while Fethiye market day on Tuesday usually creates heavier traffic in
                   the town center. For <strong>Patara Beach</strong>, the car park closes at
                   8:00 PM during nesting-season controls, and drivers who stay after closure
-                  can face fines or towing.
+                  can face fines or towing. For lot-by-lot details, see our <Link to="/parking-fuel-guide" className="text-primary underline hover:text-accent">parking and fuel guide</Link>.
                 </p>
               </AccordionContent>
             </AccordionItem>

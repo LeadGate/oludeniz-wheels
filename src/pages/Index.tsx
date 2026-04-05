@@ -127,7 +127,7 @@ const Index = () => {
             A practical example is the route structure around &Ouml;l&uuml;deniz: <strong>Kayak&ouml;y</strong> is about <strong>10 km</strong> away, <strong>Sakl&#x131;kent Gorge</strong> is roughly <strong>50 km</strong>, and <strong>Patara Beach</strong> is around <strong>70 km</strong> from the resort. That means a single rental vehicle can cover beach time, ruins, and mountain viewpoints in one day without waiting for multiple buses. For travelers staying in <strong>Ovac&#x131;k</strong> or <strong>Hisar&ouml;n&uuml;</strong>, the driving pattern is even easier because both areas sit slightly inland with better parking and faster access to the <strong>D400 highway</strong>.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            Local transport still has a role. The dolmu&#x15F; between <strong>Fethiye</strong> and <strong>&Ouml;l&uuml;deniz</strong> is useful for short transfers, but the same minibus network does not reliably serve remote trailheads, the <strong>Butterfly Valley</strong> landing area, or the boat points used for <strong>Gemiler Island</strong>. For a multi-stop itinerary that includes <strong>Tlos</strong>, <strong>Pinara</strong>, <strong>Xanthos</strong>, or <strong>Letoon</strong>, a car gives you a fixed schedule and a usable trunk for water shoes, beach gear, and groceries.
+            Local transport still has a role. The dolmu&#x15F; between <strong>Fethiye</strong> and <strong>&Ouml;l&uuml;deniz</strong> is useful for short transfers, but the same minibus network does not reliably serve remote trailheads, the <strong>Butterfly Valley</strong> landing area, or the boat points used for <strong>Gemiler Island</strong>. For a multi-stop itinerary that includes <strong>Tlos</strong>, <strong>Pinara</strong>, <strong>Xanthos</strong>, or <strong>Letoon</strong>, a car gives you a fixed schedule and a usable trunk for water shoes, beach gear, and groceries. See our <Link to="/scenic-drives-from-oludeniz" className="text-primary underline hover:text-accent">scenic drives and day trip routes</Link> for detailed itineraries.
           </p>
         </div>
       </Section>
@@ -219,7 +219,7 @@ const Index = () => {
           </p>
           <WarningBox>
             <p className="text-gray-700">
-              &ldquo;Full coverage&rdquo; does not always mean <strong>zero excess</strong>. Some offers still keep a small <strong>muafiyet</strong> or deductible for tires, glass, mirrors, or undercarriage damage. If your route includes rougher roads toward <strong>Faralya</strong>, <strong>Kabak Beach</strong>, or the higher road to <strong>Babada&#x11F; Mountain</strong>, ask for written confirmation of which parts are included in the cover.
+              &ldquo;Full coverage&rdquo; does not always mean <strong>zero excess</strong>. Some offers still keep a small <strong>muafiyet</strong> or deductible for tires, glass, mirrors, or undercarriage damage. If your route includes rougher roads toward <strong>Faralya</strong>, <strong>Kabak Beach</strong>, or the higher road to <strong>Babada&#x11F; Mountain</strong>, ask for written confirmation of which parts are included in the cover. Our <Link to="/rental-tips-insurance" className="text-primary underline hover:text-accent">insurance and rental tips guide</Link> breaks down every coverage type.
             </p>
           </WarningBox>
           <p className="text-gray-700 mt-4 leading-relaxed">
@@ -434,7 +434,7 @@ const Index = () => {
             </table>
           </div>
           <p className="text-gray-700 mt-4 leading-relaxed">
-            If your goal is pure beach time, <strong>&Ccedil;al&#x131;&#x15F; Beach</strong> can work as a calmer seaside base for a half-day detour, while <strong>Blue Lagoon</strong> remains the iconic &Ouml;l&uuml;deniz stop. If your goal is ancient history, combine <strong>Tlos</strong>, <strong>Pinara</strong>, <strong>Xanthos</strong>, and <strong>Letoon</strong> into one route so you make efficient use of fuel and time. If your goal is scenery, the coastal road toward <strong>Faralya</strong>, <strong>Kabak Beach</strong>, and the <strong>Butterfly Valley</strong> viewpoint gives some of the best cliff-and-sea photography in Mu&#x11F;la Province.
+            If your goal is pure beach time, <strong>&Ccedil;al&#x131;&#x15F; Beach</strong> can work as a calmer seaside base for a half-day detour, while <strong>Blue Lagoon</strong> remains the iconic &Ouml;l&uuml;deniz stop. If your goal is ancient history, combine <strong>Tlos</strong>, <strong>Pinara</strong>, <strong>Xanthos</strong>, and <strong>Letoon</strong> into one route so you make efficient use of fuel and time — our <Link to="/scenic-drives-from-oludeniz" className="text-primary underline hover:text-accent">scenic drives guide</Link> maps out each loop. If your goal is scenery, the coastal road toward <strong>Faralya</strong>, <strong>Kabak Beach</strong>, and the <strong>Butterfly Valley</strong> viewpoint gives some of the best cliff-and-sea photography in Mu&#x11F;la Province.
           </p>
         </div>
       </Section>

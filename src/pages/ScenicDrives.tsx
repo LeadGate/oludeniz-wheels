@@ -129,7 +129,7 @@ const ScenicDrives = () => {
           </p>
           <WarningBox>
             <p className="text-gray-700">
-              <strong>Insurance and safety note:</strong> Unpaved road use can void CDW, SCDW, and full coverage policies, and many contracts treat these surfaces as <em>unstabilize olmayan yollar</em> or unsealed roads. This matters because rental agreements from companies such as Dalaman Car Hire, Garenta, Sixt, Enterprise, Avis, Europcar, Cizgi Rent a Car, and Budget commonly exclude damage on dirt tracks, so ask for written confirmation of coverage before driving down to Kabak Beach.
+              <strong>Insurance and safety note:</strong> Unpaved road use can void CDW, SCDW, and full coverage policies, and many contracts treat these surfaces as <em>unstabilize olmayan yollar</em> or unsealed roads. This matters because rental agreements from companies such as Dalaman Car Hire, Garenta, Sixt, Enterprise, Avis, Europcar, Cizgi Rent a Car, and Budget commonly exclude damage on dirt tracks — read our <Link to="/rental-tips-insurance" className="text-primary underline hover:text-accent">insurance and off-road clause guide</Link> before signing, and ask for written confirmation of coverage before driving down to Kabak Beach.
             </p>
           </WarningBox>
           <p className="text-gray-700 mt-4 leading-relaxed">
@@ -155,7 +155,7 @@ const ScenicDrives = () => {
             <strong>Stage 1: &Ouml;l&uuml;deniz to Tlos:</strong> Drive via Fethiye and join the D400 highway, then follow signs for Tlos after about 22 km; the final 10 km to the site are on a narrow but paved road, and parking is free by the entrance area. Tlos is one of the most important Lycian settlements, and the site works well as a first stop because the approach is straightforward for standard cars.
           </p>
           <p className="text-gray-700 mb-4 leading-relaxed">
-            <strong>Stage 2: Tlos to Sakl&#x131;kent Gorge:</strong> The next 8 km take you to Sakl&#x131;kent Gorge, where the road passes pine forest and riverside restaurants; in peak season, arriving before 10:30 helps avoid queues. Entry is typically 100&ndash;120 TL per person, and the area is a common stop on guided Jeep Safari tours as well as independent self-drives.
+            <strong>Stage 2: Tlos to Sakl&#x131;kent Gorge:</strong> The next 8 km take you to Sakl&#x131;kent Gorge, where the road passes pine forest and riverside restaurants; in peak season, arriving before 10:30 helps avoid queues. Entry is typically 100&ndash;120 TL per person, and the area is a common stop on guided Jeep Safari tours as well as independent self-drives. See our <Link to="/parking-fuel-guide" className="text-primary underline hover:text-accent">attraction parking guide</Link> for lot details and payment tips.
           </p>
           <p className="text-gray-700 mb-4 leading-relaxed">
             <strong>Stage 3: Sakl&#x131;kent to Pinara:</strong> The final leg heads back toward the main highway, with Pinara reached by a short turnoff near Minare village; recent roadworks have improved the approach from gravel to paved surface. Pinara is a strong fit for travelers who want a quieter site than Xanthos or Patara Beach, and a simple sedan like a Renault Clio or Citroen C3 is enough for the access road.
@@ -211,7 +211,7 @@ const ScenicDrives = () => {
             The D400 highway is the core coastal route of the Turkish Aegean and Turquoise Coast, and the &Ouml;l&uuml;deniz to Ka&#x15F; drive is one of the strongest one-day scenic runs in Mu&#x11F;la Province.
           </p>
           <p className="text-gray-700 mb-4 leading-relaxed">
-            <strong>Main route and drive time:</strong> The standard route is &Ouml;l&uuml;deniz &rarr; Fethiye &rarr; D400 &rarr; Kalkan &rarr; Ka&#x15F;, covering about 110 km in roughly 2 hours without stops. This corridor is suitable for nearly all standard rentals, including Fiat Egea Cross, Dacia Duster, Ford Focus, Volkswagen Passat, and Nissan Qashqai.
+            <strong>Main route and drive time:</strong> The standard route is &Ouml;l&uuml;deniz &rarr; Fethiye &rarr; D400 &rarr; Kalkan &rarr; Ka&#x15F;, covering about 110 km in roughly 2 hours without stops. This corridor is suitable for nearly all standard rentals, including Fiat Egea Cross, Dacia Duster, Ford Focus, Volkswagen Passat, and Nissan Qashqai. If you are picking up at the airport, our <Link to="/dalaman-airport-car-rental" className="text-primary underline hover:text-accent">Dalaman Airport pickup guide</Link> covers the handover process.
           </p>
           <p className="text-gray-700 mb-4 leading-relaxed">
             <strong>Xanthos:</strong> Around the 65 km mark, Xanthos offers a UNESCO-listed ancient capital with easy roadside parking and minimal walking from the vehicle. For travelers interested in Lycian history, Xanthos is one of the clearest cultural stops on the route.

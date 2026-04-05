@@ -173,7 +173,7 @@ const TipsInsurance = () => {
 
           <h3 className="text-xl font-semibold mb-3 text-gray-800">Off-road and unpaved-road clauses are high-risk</h3>
           <p className="text-gray-700 mb-4 leading-relaxed">
-            Turkish rental contracts often void CDW, SCDW, FDW, and full coverage if damage occurs on unpaved roads, forestry tracks, or <em>stabilize yollar</em> outside the normal road network. That warning matters for routes toward Butterfly Valley (Kelebekler Vadisi), Faralya, Kabak Beach, Gemiler Island, or mountain roads near Babada&#x11F; Mountain and Babada&#x11F;, because a Dacia Lodgy or Suzuki Samurai driven off-road can lose insurance protection even if the company advertised zero excess. Caveat: paved access roads on the D400 highway and signed municipal roads are usually covered, but the contract text controls the final outcome.
+            Turkish rental contracts often void CDW, SCDW, FDW, and full coverage if damage occurs on unpaved roads, forestry tracks, or <em>stabilize yollar</em> outside the normal road network. That warning matters for routes toward Butterfly Valley (Kelebekler Vadisi), Faralya, Kabak Beach, Gemiler Island, or mountain roads near Babada&#x11F; Mountain and Babada&#x11F;, because a Dacia Lodgy or Suzuki Samurai driven off-road can lose insurance protection even if the company advertised zero excess. Our <Link to="/scenic-drives-from-oludeniz" className="text-primary underline hover:text-accent">scenic drives guide</Link> shows which roads are paved and which require caution. Caveat: paved access roads on the D400 highway and signed municipal roads are usually covered, but the contract text controls the final outcome.
           </p>
 
           <h3 className="text-xl font-semibold mb-3 text-gray-800">Airport pickup, terminal counters, and meet-and-greet</h3>
@@ -398,7 +398,7 @@ const TipsInsurance = () => {
 
           <h3 className="text-xl font-semibold mb-3 text-gray-800">Popular bases and day-trip clusters</h3>
           <p className="text-gray-700 mb-4 leading-relaxed">
-            Travelers staying in &Ouml;l&uuml;deniz often choose pickups in Fethiye or Dalaman Airport (DLM), then drive the D400 to Hisar&ouml;n&uuml;, Ovac&#x131;k, Kayak&ouml;y, Gemiler Island, Faralya, and Babada&#x11F; viewpoints. Longer day trips can include Sakl&#x131;kent Gorge, Patara Beach, Tlos, Pinara, Xanthos, Letoon, &Uuml;z&uuml;ml&uuml;, and &Ccedil;al&#x131;&#x15F; Beach, with a second-day extension to Pamukkale or a coastal drive toward Ka&#x15F; and Kalkan. Caveat: road width, parking availability, and insurance exclusions matter more on rural segments than on main highways.
+            Travelers staying in &Ouml;l&uuml;deniz often choose pickups in Fethiye or Dalaman Airport (DLM), then drive the D400 to Hisar&ouml;n&uuml;, Ovac&#x131;k, Kayak&ouml;y, Gemiler Island, Faralya, and Babada&#x11F; viewpoints. Longer day trips can include Sakl&#x131;kent Gorge, Patara Beach, Tlos, Pinara, Xanthos, Letoon, &Uuml;z&uuml;ml&uuml;, and &Ccedil;al&#x131;&#x15F; Beach, with a second-day extension to Pamukkale or a coastal drive toward Ka&#x15F; and Kalkan. For lot-by-lot details, check our <Link to="/parking-fuel-guide" className="text-primary underline hover:text-accent">parking and fuel guide</Link>. Caveat: road width, parking availability, and insurance exclusions matter more on rural segments than on main highways.
           </p>
 
           <h3 className="text-xl font-semibold mb-3 text-gray-800">When to choose a smaller or larger car</h3>
