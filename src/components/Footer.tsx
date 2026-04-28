@@ -18,7 +18,7 @@ const Footer = () => (
         <div>
           <Link to="/" className="text-lg font-bold text-primary">Ölüdeniz Car Rental</Link>
           <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
-            We earn commission through Discover Cars at no extra cost to you. This site provides information only and does not operate a car rental fleet.
+            oludeniz-rent-a-car.com is an independent car rental guide. We may earn a commission when you book through partner links or the booking widget. Final prices, availability, deposits, insurance terms and supplier conditions are provided by the booking partner or rental supplier.
           </p>
         </div>
         <div>

@@ -44,12 +44,11 @@ const About = () => {
 
       <Section>
         <div className="max-w-4xl mx-auto">
+          <p className="text-lg text-muted-foreground mb-4">
+            <strong>oludeniz-rent-a-car.com is an independent car rental booking guide</strong> for {"\u00d6"}l{"\u00fc"}deniz and the surrounding Lycian Coast in Mu{"\u011f"}la Province, Turkey. We compare prices, vehicle categories, pickup options and rental conditions from local providers and international booking platforms to help travellers find the right rental for their trip.
+          </p>
           <p className="text-lg text-muted-foreground mb-6">
-            oludeniz-rent-a-car.com is an independent travel guide focused on car
-            rental comparison for {"\u00d6"}l{"\u00fc"}deniz and the surrounding Lycian Coast
-            in Mu{"\u011f"}la Province, Turkey. We are not a car rental agency {"\u2014"} we
-            help travelers compare deals from local providers and international
-            booking platforms.
+            <strong>oludeniz-rent-a-car.com does not own vehicles, operate a rental office, hold deposits, or issue rental contracts.</strong> All bookings, supplier conditions, deposits, insurance terms and final prices are handled by the booking partner or rental supplier shown in the booking widget.
           </p>
         </div>
       </Section>
