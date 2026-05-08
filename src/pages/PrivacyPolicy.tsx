@@ -19,7 +19,6 @@ const PrivacyPolicy = () => {
         title="Privacy Policy \u2014 \u00d6l\u00fcdeniz Car Rental"
         description="Privacy policy for oludeniz-rent-a-car.com. How we handle your data, cookies, and third-party services on our \u00d6l\u00fcdeniz car rental guide."
         canonical="https://oludeniz-rent-a-car.com/privacy"
-        jsonLd={[breadcrumbSchema]}
       />
 
       <Section>

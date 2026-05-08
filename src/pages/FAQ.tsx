@@ -98,7 +98,6 @@ const FAQ = () => {
         title="Car Rental FAQ \u2014 11 Questions Answered (2026)"
         description="Answers to the most common questions about renting a car in \u00d6l\u00fcdeniz. Airport transfers, insurance, fuel, parking, tolls, speed limits, and seasonal tips."
         canonical="https://oludeniz-rent-a-car.com/faq"
-        jsonLd={[breadcrumbSchema, faqSchema]}
       />
 
       {/* Hero */}
