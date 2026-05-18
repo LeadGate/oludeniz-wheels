@@ -19,7 +19,7 @@ const About = () => {
       <SEOHead
         title="About Us \u2014 Independent Car Rental Comparison Guide"
         description="About oludeniz-rent-a-car.com \u2014 an independent comparison guide for car rental in \u00d6l\u00fcdeniz, Turkey. Not a rental agency."
-        canonical="https://oludeniz-rent-a-car.com/about"
+        canonical="https://oludeniz-rent-a-car.com/about/"
       />
 
       {/* Hero */}

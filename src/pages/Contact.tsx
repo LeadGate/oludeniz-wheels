@@ -31,7 +31,7 @@ const Contact = () => {
       <SEOHead
         title="Contact \u2014 \u00d6l\u00fcdeniz Car Rental"
         description="Contact the oludeniz-rent-a-car.com team for questions about car rental in \u00d6l\u00fcdeniz, Turkey. We respond within 48 hours."
-        canonical="https://oludeniz-rent-a-car.com/contact"
+        canonical="https://oludeniz-rent-a-car.com/contact/"
       />
 
       {/* Hero */}
