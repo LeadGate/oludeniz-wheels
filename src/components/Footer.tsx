@@ -54,7 +54,7 @@ const Footer = () => (
       </div>
       <div className="mt-8 pt-6 border-t border-border flex flex-col md:flex-row justify-between items-center gap-2 text-sm text-muted-foreground">
         <span>&copy; {new Date().getFullYear()} oludeniz-rent-a-car.com</span>
-        <span>Last updated: April 2026</span>
+        <span>Last updated: May 2026</span>
       </div>
     </div>
   </footer>
