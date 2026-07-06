@@ -100,7 +100,7 @@ const Index = () => {
         <div className="relative z-10 max-w-4xl mx-auto px-4 py-16 text-center text-white">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Rent a Car in &Ouml;l&uuml;deniz &mdash; Compare Local Deals from &euro;12/Day</h1>
           <p className="text-lg md:text-xl leading-relaxed mb-8 text-white/90">
-            Compare rental deals from &euro;12/day. Dalaman Airport pickup, free cancellation, and unlimited mileage across the Lycian Coast.
+            Live rate check, 6 July 2026: 12 cars bookable for &Ouml;l&uuml;deniz across 8 models, from a Fiat Egea at &euro;43.56/day (&euro;62.89/day median). The &euro;12/day headline is the advance-booking economy rate &mdash; by early July the same-day market opens three times higher, so reserve ahead. Dalaman Airport pickup is 60 km away on the D400.
           </p>
           <a href="#compare" className="inline-block bg-accent text-accent-foreground font-semibold px-8 py-3 rounded-md hover:bg-accent/90 transition-colors">
             Compare Car Rental Deals
@@ -140,7 +140,7 @@ const Index = () => {
             <h2 className="text-3xl font-bold">&Ouml;l&uuml;deniz Car Rental Prices and Car Classes</h2>
           </div>
           <p className="text-gray-700 mb-6 leading-relaxed">
-            The 2026 pricing picture in &Ouml;l&uuml;deniz depends on transmission, season, and insurance level. For a standard quote, many local providers show <strong>Fiat Egea</strong> or <strong>Renault Clio</strong> at about <strong>&euro;12&ndash;&euro;18/day</strong>, while compact automatics such as <strong>Hyundai i20</strong> or <strong>Citroen C3</strong> often price closer to <strong>&euro;20&ndash;&euro;30/day</strong> in summer. Larger models like <strong>Dacia Duster</strong>, <strong>Nissan Qashqai</strong>, <strong>Ford Focus</strong>, or <strong>Volkswagen Passat</strong> cost more because they are limited in supply and are often booked first.
+            The 2026 pricing picture in &Ouml;l&uuml;deniz depends on transmission, season, and insurance level. For a standard quote, many local providers show <strong>Fiat Egea</strong> or <strong>Renault Clio</strong> at about <strong>&euro;12&ndash;&euro;18/day</strong> when booked well in advance, while compact automatics such as <strong>Hyundai i20</strong> or <strong>Citroen C3</strong> often price closer to <strong>&euro;20&ndash;&euro;30/day</strong> in summer. Late bookers pay far more: a live 6 July 2026 check showed the same-day Egea rate at <strong>&euro;43.56/day</strong>, with the market median at &euro;62.89/day. Larger models like <strong>Dacia Duster</strong>, <strong>Nissan Qashqai</strong>, <strong>Ford Focus</strong>, or <strong>Volkswagen Passat</strong> cost more because they are limited in supply and are often booked first.
           </p>
           <div className="overflow-x-auto">
             <table className="w-full border-collapse text-sm">
