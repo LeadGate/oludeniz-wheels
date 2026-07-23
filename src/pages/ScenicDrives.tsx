@@ -14,6 +14,7 @@ import { Car, MapPin, Mountain, Route, Shield, HelpCircle, Compass, Map } from "
 import heroScenicDrive from "@/assets/hero-scenic-drive.webp";
 import sectionCoastalRoad from "@/assets/section-coastal-road.webp";
 import sectionAncientRuins from "@/assets/section-ancient-ruins.webp";
+import AffiliateWidget from "@/components/AffiliateWidget";
 
 const faqData = [
   {
@@ -97,6 +98,8 @@ const ScenicDrives = () => {
           </p>
         </div>
       </section>
+
+      <AffiliateWidget />
 
       <div className="max-w-5xl mx-auto px-4 pt-4">
         <Breadcrumbs items={[{ label: "Scenic Drives" }]} />

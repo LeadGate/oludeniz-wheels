@@ -13,6 +13,7 @@ import { Link } from "react-router-dom";
 import { Shield, AlertTriangle, Car, Scale, MapPin, CheckCircle, HelpCircle } from "lucide-react";
 import heroInsuranceTips from "@/assets/hero-insurance-tips.webp";
 import sectionRentalDesk from "@/assets/section-rental-desk.webp";
+import AffiliateWidget from "@/components/AffiliateWidget";
 
 const faqData = [
   {
@@ -101,6 +102,8 @@ const TipsInsurance = () => {
           </p>
         </div>
       </section>
+
+      <AffiliateWidget />
 
       <div className="max-w-5xl mx-auto px-4 pt-4">
         <Breadcrumbs items={[{ label: "Tips & Insurance" }]} />

@@ -13,6 +13,7 @@ import { Link } from "react-router-dom";
 import { ParkingCircle, Fuel, MapPin, CreditCard, HelpCircle, Bus } from "lucide-react";
 import heroParkingGuide from "@/assets/hero-parking-guide.webp";
 import sectionBlueLagoon from "@/assets/section-blue-lagoon.webp";
+import AffiliateWidget from "@/components/AffiliateWidget";
 
 const faqData = [
   {
@@ -91,6 +92,8 @@ const ParkingFuel = () => {
           </p>
         </div>
       </section>
+
+      <AffiliateWidget />
 
       <div className="max-w-5xl mx-auto px-4 pt-4">
         <Breadcrumbs items={[{ label: "Parking & Fuel" }]} />

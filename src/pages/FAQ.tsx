@@ -11,6 +11,7 @@ import {
 import { Link } from "react-router-dom";
 import { HelpCircle } from "lucide-react";
 import heroBlueLagoon from "@/assets/hero-blue-lagoon.webp";
+import AffiliateWidget from "@/components/AffiliateWidget";
 
 const faqData = [
   {
@@ -115,6 +116,8 @@ const FAQ = () => {
           </p>
         </div>
       </section>
+
+      <AffiliateWidget />
 
       <div className="max-w-5xl mx-auto px-4 pt-4">
         <Breadcrumbs items={[{ label: "FAQ" }]} />

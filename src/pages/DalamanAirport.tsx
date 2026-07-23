@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import { Plane, Shield, Route, Mountain, CreditCard, Moon, Construction, HelpCircle } from "lucide-react";
 import heroDalamanAirport from "@/assets/hero-dalaman-airport.webp";
 import sectionGocekTunnel from "@/assets/section-gocek-tunnel.webp";
+import AffiliateWidget from "@/components/AffiliateWidget";
 
 const faqData = [
   {
@@ -86,6 +87,8 @@ const DalamanAirport = () => {
           </p>
         </div>
       </section>
+
+      <AffiliateWidget />
 
       <div className="max-w-5xl mx-auto px-4 pt-4">
         <Breadcrumbs items={[{ label: "Airport Guide" }]} />
