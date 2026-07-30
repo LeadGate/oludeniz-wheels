@@ -74,7 +74,7 @@ const ParkingFuel = () => {
   return (
     <Layout>
       <SEOHead
-        title="Parking & Fuel Guide — Ölüdeniz and Fethiye (2026)"
+        title="Ölüdeniz & Fethiye Parking and Fuel Station Guide (FAQ)"
         description="Parking and fuel guide for Ölüdeniz. Blue Lagoon costs, attraction parking, Fethiye market day tips, and fuel station locations."
         canonical="https://oludeniz-rent-a-car.com/parking-fuel-guide/"
       />

@@ -69,7 +69,7 @@ const DalamanAirport = () => {
   return (
     <Layout>
       <SEOHead
-        title="Dalaman Airport Car Rental — Pickup Guide & Route (2026)"
+        title="Dalaman Airport Car Rental FAQ: Pickup & Route to Ölüdeniz"
         description="Complete Dalaman Airport car rental pickup guide. Insurance, deposits, HGS tolls, Göcek Tunnel, night driving tips, and the 60 km route to Ölüdeniz."
         canonical="https://oludeniz-rent-a-car.com/dalaman-airport-car-rental/"
       />

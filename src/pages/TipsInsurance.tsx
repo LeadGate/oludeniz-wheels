@@ -84,7 +84,7 @@ const TipsInsurance = () => {
   return (
     <Layout>
       <SEOHead
-        title="Car Rental Tips — Insurance & Traffic Rules (2026)"
+        title="Ölüdeniz Rental Tips & Car Insurance FAQ to Avoid Scams"
         description="Turkey car rental insurance decoded: Kasko vs CDW vs SCDW. Common scams, company verification, traffic fines, and practical tips."
         canonical="https://oludeniz-rent-a-car.com/rental-tips-insurance/"
       />

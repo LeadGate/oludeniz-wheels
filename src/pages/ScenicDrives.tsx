@@ -80,7 +80,7 @@ const ScenicDrives = () => {
   return (
     <Layout>
       <SEOHead
-        title="Scenic Drives & Day Trips from Ölüdeniz by Car (2026)"
+        title="Scenic Drives & Day Trips from Ölüdeniz: Route FAQ & Tips"
         description="Scenic drives from Ölüdeniz: Kabak Coast Road, Tlos–Saklıkent loop, D400 to Kaş. 4WD vs standard car advice with distances and conditions."
         canonical="https://oludeniz-rent-a-car.com/scenic-drives-from-oludeniz/"
       />
