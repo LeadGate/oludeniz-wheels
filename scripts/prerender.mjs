@@ -162,6 +162,26 @@ function patchHead(html, { slug, canonical, title, description, cfg }) {
       `<meta name="twitter:title" content="${tTitle}" />`, `    <meta name="twitter:title" content="${tTitle}" />`);
     html = replaceOrInsert(html, /<meta name="twitter:image" content="[^"]*"\s*\/?>/,
       `<meta name="twitter:image" content="${img}" />`, `    <meta name="twitter:image" content="${img}" />`);
+    // og:image:type — index.html inherits image/jpeg; keep it honest for .webp heroes
+    if (/\.webp$/i.test(cfg.article.image)) {
+      html = replaceOrInsert(html, /<meta property="og:image:type" content="[^"]*"\s*\/?>/,
+        `<meta property="og:image:type" content="image/webp" />`, `    <meta property="og:image:type" content="image/webp" />`);
+    }
+  }
+  // LCP hero preload — per-route stable public/ path (same URL the page renders)
+  if (cfg && cfg.preloadImage) {
+    const pre = escAttr(cfg.preloadImage);
+    html = replaceOrInsert(html, /<link rel="preload" as="image"[^>]*>/,
+      `<link rel="preload" as="image" href="${pre}" fetchpriority="high" />`,
+      `    <link rel="preload" as="image" href="${pre}" fetchpriority="high" />`);
+  }
+  // Strip the homepage-inherited FAQPage block when this route ships its own,
+  // otherwise every content page serves two FAQPage graphs (home's + its own).
+  if (cfg && Array.isArray(cfg.faqs) && cfg.faqs.length > 0) {
+    html = html.replace(
+      /[ \t]*<script type="application\/ld\+json">[\s\S]*?<\/script>\n?/g,
+      (m) => (/"@type"\s*:\s*"FAQPage"/.test(m) ? '' : m),
+    );
   }
   // Inject BreadcrumbList JSON-LD before </head>
   const crumbs = {
@@ -192,6 +212,8 @@ function patchHead(html, { slug, canonical, title, description, cfg }) {
         mainEntityOfPage: { '@type': 'WebPage', '@id': canonical },
       };
       if (cfg.article.wordCount) article.wordCount = cfg.article.wordCount;
+      if (cfg.article.speakable) article.speakable = cfg.article.speakable;
+      if (cfg.article.citation) article.citation = cfg.article.citation;
       const _ab = cfg.article.articleBody || cfg.article.body;
       if (_ab) article.articleBody = _ab;
       blocks.push(`    <script type="application/ld+json">\n${JSON.stringify(article, null, 2)}\n    </script>`);
@@ -207,6 +229,14 @@ function patchHead(html, { slug, canonical, title, description, cfg }) {
         })),
       };
       blocks.push(`    <script type="application/ld+json">\n${JSON.stringify(faqPage, null, 2)}\n    </script>`);
+    }
+    // Verbatim extra JSON-LD blocks (WebApplication / HowTo / ItemList / Service …)
+    if (Array.isArray(cfg.extraSchemas)) {
+      for (const s of cfg.extraSchemas) {
+        if (!s || typeof s !== 'object') continue;
+        const block = s['@context'] ? s : { '@context': 'https://schema.org', ...s };
+        blocks.push(`    <script type="application/ld+json">\n${JSON.stringify(block, null, 2)}\n    </script>`);
+      }
     }
     if (blocks.length) {
       html = html.replace(/<\/head>/, `${blocks.join('\n')}\n  </head>`);

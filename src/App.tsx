@@ -6,6 +6,7 @@ const DalamanAirport = lazy(() => import("./pages/DalamanAirport"));
 const ScenicDrives = lazy(() => import("./pages/ScenicDrives"));
 const ParkingFuel = lazy(() => import("./pages/ParkingFuel"));
 const TipsInsurance = lazy(() => import("./pages/TipsInsurance"));
+const TrafficFines = lazy(() => import("./pages/TrafficFines"));
 const FAQ = lazy(() => import("./pages/FAQ"));
 const About = lazy(() => import("./pages/About"));
 const Contact = lazy(() => import("./pages/Contact"));
@@ -30,6 +31,7 @@ const App = () => (
             <Route path="/scenic-drives-from-oludeniz" element={<ScenicDrives />} />
             <Route path="/parking-fuel-guide" element={<ParkingFuel />} />
             <Route path="/rental-tips-insurance" element={<TipsInsurance />} />
+            <Route path="/traffic-fines-rental-car-oludeniz" element={<TrafficFines />} />
             <Route path="/faq" element={<FAQ />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />

@@ -7,6 +7,7 @@ const navItems = [
   { label: "Scenic Drives", path: "/scenic-drives-from-oludeniz" },
   { label: "Parking & Fuel", path: "/parking-fuel-guide" },
   { label: "Tips & Insurance", path: "/rental-tips-insurance" },
+  { label: "Traffic Fines", path: "/traffic-fines-rental-car-oludeniz" },
   { label: "FAQ", path: "/faq" },
   { label: "About", path: "/about" },
   { label: "Contact", path: "/contact" },

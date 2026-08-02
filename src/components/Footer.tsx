@@ -5,6 +5,7 @@ const footerLinks = [
   { label: "Scenic Drives", path: "/scenic-drives-from-oludeniz" },
   { label: "Parking & Fuel", path: "/parking-fuel-guide" },
   { label: "Tips & Insurance", path: "/rental-tips-insurance" },
+  { label: "Traffic Fines", path: "/traffic-fines-rental-car-oludeniz" },
   { label: "FAQ", path: "/faq" },
   { label: "About", path: "/about" },
   { label: "Contact", path: "/contact" },
@@ -54,7 +55,7 @@ const Footer = () => (
       </div>
       <div className="mt-8 pt-6 border-t border-border flex flex-col md:flex-row justify-between items-center gap-2 text-sm text-muted-foreground">
         <span>&copy; {new Date().getFullYear()} oludeniz-rent-a-car.com</span>
-        <span>Last updated: May 2026</span>
+        <span>Last updated: August 2026</span>
       </div>
     </div>
   </footer>
