@@ -89,6 +89,18 @@ const TrafficFines = () => {
       {/* Intro / answer-first */}
       <Section className="intro-section">
         <div className="max-w-4xl mx-auto">
+          <p className="text-sm text-muted-foreground mb-4">Last verified: 2 August 2026</p>
+          <InfoBox>
+            <p className="text-gray-800 leading-relaxed mb-3">
+              <strong>The short answer.</strong> Since 27 February 2026 the notice goes to the renter, not the rental firm — but you still cannot settle it yourself, so the firm pays it and bills your card with its own fee attached.
+            </p>
+            <ul className="text-gray-800 leading-relaxed list-disc pl-5 space-y-1">
+              <li><strong>Cizgi</strong> adds a flat <strong>300 TL</strong> per fine — the only structure here that leaves you below the headline figure on a large fine.</li>
+              <li><strong>Oscar</strong> adds <strong>25% of the base fine</strong>, which almost exactly cancels the state&rsquo;s 25% early-payment discount: you pay roughly the full base fine.</li>
+              <li><strong>Garenta</strong> adds <strong>30%</strong> (plus 12% on HGS tolls), so you pay <strong>more</strong> than the base fine — a 5,000 TL red light costs you 5,250 TL.</li>
+              <li>The 25% discount runs <strong>one month from notification</strong>, and whether it reaches you depends on how fast your firm pays.</li>
+            </ul>
+          </InfoBox>
           <p className="text-lg leading-relaxed text-gray-700 mb-4">
             If you hired a car in Ölüdeniz and a fine has landed — or you are worried one might — here is the plain answer. Since 27 February 2026, a new law (No. 7574, amending Highway Traffic Law No. 2918) means the penalty for an offence committed in a hire car is now normally issued to <strong>you</strong>, the renter, not the rental company, once police confirm through KABİS (Kiralık Araç Bildirim Sistemi, the rental notification system) that the car was on hire that day.
           </p>
@@ -240,10 +252,10 @@ const TrafficFines = () => {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold mb-6 flex items-center gap-3">
             <Landmark className="w-8 h-8 text-primary" />
-            Why You Probably Cannot Pay It Yourself
+            Can You Pay a Turkish Traffic Fine Yourself?
           </h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            The advice that circulates on expat forums — &ldquo;just pay it on the GİB portal&rdquo; — does not apply to your situation, and it is worth explaining why clearly. The{" "}
+            <strong>No — not on a Turkish-plated hire car, and the portal everyone recommends is the wrong one.</strong> The advice that circulates on expat forums — &ldquo;just pay it on the GİB portal&rdquo; — does not apply to your situation, and it is worth explaining why clearly. The{" "}
             <a
               href="https://dijital.gib.gov.tr/"
               target="_blank"
@@ -264,11 +276,16 @@ const TrafficFines = () => {
       <Section alt>
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold mb-6">The 25% Discount, the Interest, and the Ceiling</h2>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            Turkish traffic law gives a <strong>25% discount</strong> if the fine is paid within <strong>one month</strong> of legal notification — extended from the previous 15-day window by an amendment published on 31 January 2024. That month is counted from the date of notification, not the date of the offence, and if the notice went to the rental company via e-Tebligat, the clock starts on the fifth day after delivery.
-          </p>
+          <ul className="text-gray-700 leading-relaxed list-disc pl-5 space-y-2 mb-6">
+            <li><strong>Discount window:</strong> 25% off if paid within <strong>one month of notification</strong> — extended from the previous 15-day window by an amendment published on 31 January 2024. The month runs from notification, not from the offence; where the notice reaches the rental company via e-Tebligat, the clock starts on the fifth day after delivery.</li>
+            <li><strong>Interest:</strong> 5% per month under <strong>KTK Article 115</strong>, with any part-month counted as a full month.</li>
+            <li><strong>Ceiling:</strong> disputed — the prevailing reading caps the interest at twice the fine (a three-times total), while other readings cap the total debt itself.</li>
+          </ul>
           <p className="text-gray-700 leading-relaxed">
-            Miss the window and the fine reverts to its full amount, then accrues interest under <strong>KTK Article 115</strong> at 5% per month, with any part-month counted as a full month. That interest is subject to a statutory ceiling, though sources differ on exactly what the ceiling caps: the prevailing reading is that the interest itself is capped at twice the original fine, which would put the maximum total debt at three times the base amount — while other readings apply the cap to the total debt directly. For a renter the distinction is largely academic, because the rental company normally settles long before any ceiling would bite. The practical point is simpler: a well-organised firm pays fast and avoids interest altogether; a slow one lets the window close and adds accruing interest to whatever it then bills you.
+            Miss the window and the fine reverts to its full amount, then starts accruing that interest. For a renter the ceiling dispute is largely academic, because the rental company normally settles long before any ceiling would bite. The practical point is simpler: a well-organised firm pays fast and avoids interest altogether; a slow one lets the window close and adds accruing interest to whatever it then bills you. The governing text is Highway Traffic Law No. 2918, as amended by{" "}
+            <a href="https://www.resmigazete.gov.tr/eskiler/2026/02/20260227-1.htm" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+              Law No. 7574 in the Resmî Gazete of 27 February 2026
+            </a>.
           </p>
         </div>
       </Section>
@@ -396,6 +413,39 @@ const TrafficFines = () => {
               width={1200}
               height={675}
             />
+          </div>
+          <div className="overflow-x-auto rounded-lg border border-gray-200 mt-8">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-primary text-white">
+                  <th className="p-3 text-left">Road segment</th>
+                  <th className="p-3 text-right">Speed limit</th>
+                  <th className="p-3 text-left">Enforcement</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="bg-white hover:bg-secondary/60 transition-colors">
+                  <td className="p-3 border-b"><strong>D400, open road outside Fethiye</strong></td>
+                  <td className="p-3 border-b text-right">110 km/h</td>
+                  <td className="p-3 border-b">Fixed EDS cameras along the corridor</td>
+                </tr>
+                <tr className="bg-[#F7F5F0] hover:bg-secondary/60 transition-colors">
+                  <td className="p-3 border-b"><strong>D400 approaching Fethiye</strong></td>
+                  <td className="p-3 border-b text-right text-amber-700">70 km/h</td>
+                  <td className="p-3 border-b">Step-down zone before the built-up section</td>
+                </tr>
+                <tr className="bg-white hover:bg-secondary/60 transition-colors">
+                  <td className="p-3 border-b"><strong>D400 through Çamköy and Günlükbaşı</strong></td>
+                  <td className="p-3 border-b text-right text-red-700">50 km/h</td>
+                  <td className="p-3 border-b">Built-up section, fixed EDS</td>
+                </tr>
+                <tr className="bg-[#F7F5F0] hover:bg-secondary/60 transition-colors">
+                  <td className="p-3 border-b"><strong>Fethiye – Ölüdeniz via Ovacık and Hisarönü</strong></td>
+                  <td className="p-3 border-b text-right text-red-700">50 km/h</td>
+                  <td className="p-3 border-b">Fixed radar plus mobile Jandarma checkpoints in season</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </Section>
