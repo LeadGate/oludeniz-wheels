@@ -175,14 +175,6 @@ function patchHead(html, { slug, canonical, title, description, cfg }) {
       `<link rel="preload" as="image" href="${pre}" fetchpriority="high" />`,
       `    <link rel="preload" as="image" href="${pre}" fetchpriority="high" />`);
   }
-  // Strip the homepage-inherited FAQPage block when this route ships its own,
-  // otherwise every content page serves two FAQPage graphs (home's + its own).
-  if (cfg && Array.isArray(cfg.faqs) && cfg.faqs.length > 0) {
-    html = html.replace(
-      /[ \t]*<script type="application\/ld\+json">[\s\S]*?<\/script>\n?/g,
-      (m) => (/"@type"\s*:\s*"FAQPage"/.test(m) ? '' : m),
-    );
-  }
   // Inject BreadcrumbList JSON-LD before </head>
   const crumbs = {
     '@context': 'https://schema.org',
