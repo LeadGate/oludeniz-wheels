@@ -81,7 +81,7 @@ const ScenicDrives = () => {
     <Layout>
       <SEOHead
         title="Scenic Drives & Day Trips from Ölüdeniz: Route FAQ & Tips"
-        description="Scenic drives from Ölüdeniz: Kabak Coast Road, Tlos–Saklıkent loop, D400 to Kaş. 4WD vs standard car advice with distances and conditions."
+        description="Scenic drives from Ölüdeniz: Tlos–Saklıkent loop is 120–140 km, Kabak Coast Road is 14 km, and Patara Beach via D400 is 110 km."
         canonical="https://oludeniz-rent-a-car.com/scenic-drives-from-oludeniz/"
       />
       <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>

@@ -70,7 +70,7 @@ const DalamanAirport = () => {
     <Layout>
       <SEOHead
         title="Dalaman Airport Car Rental FAQ: Pickup & Route to Ölüdeniz"
-        description="Complete Dalaman Airport car rental pickup guide. Insurance, deposits, HGS tolls, Göcek Tunnel, night driving tips, and the 60 km route to Ölüdeniz."
+        description="Dalaman Airport (DLM) car rental pickup guide: insurance, deposits from €120, Göcek Tunnel toll of 75 TL, and the 60 km D400 route to Ölüdeniz in 75–90 minutes."
         canonical="https://oludeniz-rent-a-car.com/dalaman-airport-car-rental/"
       />
       <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
