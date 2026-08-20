@@ -97,7 +97,7 @@ const FAQ = () => {
     <Layout>
       <SEOHead
         title="Ölüdeniz Car Rental FAQ: Insurance, Fuel & Driving Answered"
-        description="Answers to the most common questions about renting a car in \u00d6l\u00fcdeniz. Airport transfers, insurance, fuel, parking, tolls, speed limits, and seasonal tips."
+        description="Ölüdeniz car rental answers: Dalaman Airport is 60 km away, Blue Lagoon parking runs 500–650 TL in peak season and the Göcek tunnel toll is 75 TL."
         canonical="https://oludeniz-rent-a-car.com/faq/"
       />
 
