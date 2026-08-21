@@ -153,7 +153,7 @@ const TrafficFines = () => {
           </p>
           <p className="text-gray-700 leading-relaxed">
             Either way, the contractual route to your money is the same one you signed at the pick-up desk: a clause allowing the firm to charge fines, tolls and associated fees to the card on file, sometimes weeks or months after you have flown home from Dalaman. This is standard across Turkish rental agreements and is exactly why a charge can appear with no warning — the underlying offence, the notice, and the firm&rsquo;s own payment cycle can each take weeks. For the full rundown of what else can legitimately hit your card under a Turkish rental contract, see our{" "}
-            <Link to="/rental-tips-insurance" className="text-primary hover:underline">
+            <Link to="/rental-tips-insurance/" className="text-primary hover:underline">
               rental insurance and scam-avoidance guide
             </Link>.
           </p>
@@ -240,7 +240,7 @@ const TrafficFines = () => {
 
           <p className="text-gray-700 leading-relaxed mt-6">
             This is the documented basis for how these three firms describe their fees, not a guarantee — a firm could in principle calculate its percentage on the discounted amount instead, which would produce lower totals than shown here. Two firms sit outside the table on other terms. <strong>Garenta</strong> also charges 12% on HGS toll usage specifically, separate from its 30% fine fee. <strong>Avis Türkiye</strong> and <strong>Budget Türkiye</strong> use a variable model — the discounted fine plus a fixed service fee — but neither publishes the fixed amount, so it cannot be calculated here. The Fethiye-based local operators (Babadan, Yelken, Marin, TinyAkropol, Circular and Apple) do not publish a fine-handling fee at all. Ask for the figure in writing before you sign. For the full catalogue of Turkish fine categories beyond these six, see our{" "}
-            <Link to="/rental-tips-insurance" className="text-primary hover:underline">
+            <Link to="/rental-tips-insurance/" className="text-primary hover:underline">
               rental tips and insurance guide
             </Link>.
           </p>
@@ -323,7 +323,7 @@ const TrafficFines = () => {
           </div>
           <p className="text-gray-700 leading-relaxed mt-6">
             The HGS sticker on a hire car is registered to the rental company&rsquo;s own corporate account, not yours. If the firm lets that account&rsquo;s balance run dry, the multiplier above is generated automatically on their side — and it is routinely passed straight to the renter&rsquo;s card, often appearing only as a vague &ldquo;HGS usage fee&rdquo; line with no breakdown. Garenta specifically charges 12% on top of HGS toll usage. If you are driving in from Dalaman and crossing any tolled sections en route, our{" "}
-            <Link to="/dalaman-airport-car-rental" className="text-primary hover:underline">
+            <Link to="/dalaman-airport-car-rental/" className="text-primary hover:underline">
               Dalaman Airport pickup and HGS toll guide
             </Link>{" "}
             covers what to check with the desk before you leave the lot.
@@ -380,7 +380,7 @@ const TrafficFines = () => {
           <InfoBox>
             <p className="text-gray-800 leading-relaxed">
               These release costs are paid in cash directly at the pound to get your car back. They are separate from, and additional to, the underlying illegal-parking fine (1,246 TL, or 935 TL at the 25% discount), which still reaches you later through the rental company. For everyday parking that does not end in a tow, see our{" "}
-              <Link to="/parking-fuel-guide" className="text-primary hover:underline">
+              <Link to="/parking-fuel-guide/" className="text-primary hover:underline">
                 Ölüdeniz parking and fuel guide
               </Link>.
             </p>
@@ -399,7 +399,7 @@ const TrafficFines = () => {
               </p>
               <p className="text-gray-700 leading-relaxed">
                 The mountain road linking Fethiye to Ölüdeniz via <strong>Ovacık and Hisarönü</strong> carries a 50 km/h limit for good reason: steep gradients, tight switchbacks and heavy pedestrian traffic in season. Enforcement there in high season combines fixed radar with mobile <strong>Jandarma</strong> checkpoints. A new bypass road toward Kıdrak, intended to ease the Kumburnu bottleneck, began construction in April 2026 with a target completion of June 2026 — check locally whether it is open to traffic before relying on it as a shortcut. If you are planning longer routes, our{" "}
-                <Link to="/scenic-drives-from-oludeniz" className="text-primary hover:underline">
+                <Link to="/scenic-drives-from-oludeniz/" className="text-primary hover:underline">
                   scenic drives and day trips guide
                 </Link>{" "}
                 covers the roads themselves.
