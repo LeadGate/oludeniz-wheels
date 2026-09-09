@@ -3,7 +3,6 @@ import SEOHead from "@/components/SEOHead";
 import Section from "@/components/Section";
 import { InfoBox, WarningBox } from "@/components/InfoBox";
 import Breadcrumbs from "@/components/Breadcrumbs";
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Link } from "react-router-dom";
 import { Plane, Shield, Route, Mountain, CreditCard, Moon, Construction, HelpCircle } from "lucide-react";
 import heroDalamanAirport from "@/assets/hero-dalaman-airport.webp";
@@ -278,18 +277,14 @@ const DalamanAirport = () => {
             <HelpCircle className="h-7 w-7 text-primary" />
             <h2 className="text-3xl font-bold">FAQ</h2>
           </div>
-          <Accordion type="single" collapsible className="w-full">
+          <div className="w-full space-y-6">
             {faqData.map((faq, index) => (
-              <AccordionItem key={index} value={`faq-${index}`}>
-                <AccordionTrigger className="text-left font-semibold">
-                  {faq.question}
-                </AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">
-                  {faq.answer}
-                </AccordionContent>
-              </AccordionItem>
+              <div key={index}>
+                <h3 className="text-left font-semibold mb-2">{faq.question}</h3>
+                <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
+              </div>
             ))}
-          </Accordion>
+          </div>
         </div>
       </Section>
 

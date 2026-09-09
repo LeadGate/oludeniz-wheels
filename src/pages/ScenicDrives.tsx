@@ -3,12 +3,6 @@ import SEOHead from "@/components/SEOHead";
 import Section from "@/components/Section";
 import { InfoBox, WarningBox } from "@/components/InfoBox";
 import Breadcrumbs from "@/components/Breadcrumbs";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
 import { Link } from "react-router-dom";
 import { Car, MapPin, Mountain, Route, Shield, HelpCircle, Compass, Map } from "lucide-react";
 import heroScenicDrive from "@/assets/hero-scenic-drive.webp";
@@ -396,18 +390,14 @@ const ScenicDrives = () => {
             <HelpCircle className="h-7 w-7 text-primary" />
             <h2 className="text-3xl font-bold">Frequently Asked Questions</h2>
           </div>
-          <Accordion type="single" collapsible className="w-full">
+          <div className="w-full space-y-6">
             {faqData.map((faq, index) => (
-              <AccordionItem key={index} value={`faq-${index}`}>
-                <AccordionTrigger className="text-left text-lg font-semibold">
-                  {faq.question}
-                </AccordionTrigger>
-                <AccordionContent>
-                  <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
-                </AccordionContent>
-              </AccordionItem>
+              <div key={index}>
+                <h3 className="text-left text-lg font-semibold mb-2">{faq.question}</h3>
+                <div><p className="text-gray-700 leading-relaxed">{faq.answer}</p></div>
+              </div>
             ))}
-          </Accordion>
+          </div>
         </div>
       </Section>
 

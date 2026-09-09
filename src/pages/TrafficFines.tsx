@@ -3,12 +3,6 @@ import SEOHead from "@/components/SEOHead";
 import Section from "@/components/Section";
 import { InfoBox, WarningBox } from "@/components/InfoBox";
 import Breadcrumbs from "@/components/Breadcrumbs";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
 import { Link } from "react-router-dom";
 import { ReceiptText, CreditCard, Landmark, TriangleAlert, Scale, HelpCircle } from "lucide-react";
 import AffiliateWidget from "@/components/AffiliateWidget";
@@ -470,18 +464,14 @@ const TrafficFines = () => {
             <HelpCircle className="w-8 h-8 text-primary" />
             Frequently Asked Questions
           </h2>
-          <Accordion type="single" collapsible className="w-full">
+          <div className="w-full space-y-6">
             {faqData.map((faq, index) => (
-              <AccordionItem key={index} value={`faq-${index}`}>
-                <AccordionTrigger className="text-left text-lg font-semibold">
-                  {faq.question}
-                </AccordionTrigger>
-                <AccordionContent>
-                  <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
-                </AccordionContent>
-              </AccordionItem>
+              <div key={index}>
+                <h3 className="text-left text-lg font-semibold mb-2">{faq.question}</h3>
+                <div><p className="text-gray-700 leading-relaxed">{faq.answer}</p></div>
+              </div>
             ))}
-          </Accordion>
+          </div>
         </div>
       </Section>
 

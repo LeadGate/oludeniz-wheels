@@ -4,7 +4,6 @@ import Section from "@/components/Section";
 import { InfoBox, WarningBox } from "@/components/InfoBox";
 import AffiliateWidget from "@/components/AffiliateWidget";
 import Breadcrumbs from "@/components/Breadcrumbs";
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Link } from "react-router-dom";
 import { Car, Shield, DollarSign, MapPin, Plane, Building2, HelpCircle } from "lucide-react";
 import heroOludenizLagoon from "@/assets/hero-oludeniz-lagoon.webp";
@@ -456,18 +455,14 @@ const Index = () => {
             <HelpCircle className="h-7 w-7 text-primary" />
             <h2 className="text-3xl font-bold">Frequently Asked Questions</h2>
           </div>
-          <Accordion type="single" collapsible className="w-full">
+          <div className="w-full space-y-6">
             {faqData.map((faq, index) => (
-              <AccordionItem key={index} value={`faq-${index}`}>
-                <AccordionTrigger className="text-left font-semibold">
-                  {faq.question}
-                </AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">
-                  {faq.answer}
-                </AccordionContent>
-              </AccordionItem>
+              <div key={index}>
+                <h3 className="text-left font-semibold mb-2">{faq.question}</h3>
+                <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
+              </div>
             ))}
-          </Accordion>
+          </div>
         </div>
       </Section>
     </Layout>
