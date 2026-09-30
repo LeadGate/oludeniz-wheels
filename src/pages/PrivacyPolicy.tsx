@@ -88,7 +88,7 @@ const PrivacyPolicy = () => {
 
           <ul className="list-disc list-inside space-y-2 text-muted-foreground">
             <li>
-              <strong>Discover Cars</strong> {"\u2014"} our affiliate partner for car
+              <strong>Localrent</strong> {"\u2014"} our affiliate partner for car
               rental comparison. When you interact with their search widget or
               click affiliate links, you are redirected to their platform, which
               operates under its own privacy policy.
